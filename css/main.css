@@ -1,6 +1,9 @@
 .navbar-custom {
   opacity: 0.8;
 }
+.navbar-brand,.nav-link:focus{
+  outline: none;
+}
 
 /* added space between the social network buttons */
 .fas-space {
