@@ -67,7 +67,7 @@ hr {
 
 .footer {
   z-index: 99;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   text-align: center;
@@ -80,19 +80,24 @@ hr {
   padding-top: 0.5em;
 }
 
-@media only screen and (max-width: 768px) {
-
   /* For mobile phones: */
-  [class*="navbar-custom"] {
+@media only screen and (max-width: 768px) {
+  .navbar-custom {
     opacity: 1;
     z-index: 99;
   }
 
-  [class*="custom-main"] {
+  .custom-main {
     padding-top: 8%;
   }
-
+  .container{
+    padding-bottom:5em;
+  }
+.jumbotron{
+  border-right: 0px solid white;
+}
   .img-pad {
     padding-right: 5%;
   }
+
 }
