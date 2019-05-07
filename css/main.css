@@ -18,7 +18,7 @@
 .custom-main {
   z-index: 98;
   position: absolute;
-  top:19%;
+  top:18%;
   width: 100%;
   color: white;
 }
@@ -34,6 +34,7 @@
 }
 .annotate{
   font-size: 0.8em;
+  /* font-family: 'Playfair Display', serif; */
 }
 p {
   text-align: justify;
@@ -48,12 +49,21 @@ hr {
   padding: 0;
 }
 
-.heading-custom {
+.heading-custom{
   /* custom positioning for main heading*/
-  margin-top: 3%;
-  margin-bottom: 3%;
-}
+  margin-top: 2%;
+  font-family: 'Playfair Display', serif;
 
+}
+h3{
+  font-family: 'Playfair Display', serif;
+}
+h5{
+  font-family: 'Dancing Script', cursive;
+}
+p{
+  font-family: 'Source Sans Pro', sans-serif;
+}
 .img-pad {
   /* added padding around images */
   margin-top:25%;
@@ -140,6 +150,6 @@ hr {
 }
 @media (min-width: 1200px) {
     .container{
-        max-width: 970px;
+        max-width: 950px;
     }
 }
