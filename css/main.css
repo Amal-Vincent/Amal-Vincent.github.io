@@ -21,7 +21,7 @@
 .custom-main {
   z-index: 98;
   position: absolute;
-  top:18%;
+  top: 18%;
   width: 100%;
   color: white;
 }
@@ -35,10 +35,12 @@
 .text-center {
   text-align: center;
 }
-.annotate{
+
+.annotate {
   font-size: 0.8em;
   /* font-family: 'Playfair Display', serif; */
 }
+
 p {
   text-align: justify;
 }
@@ -52,27 +54,29 @@ hr {
   padding: 0;
 }
 
-.heading-custom{
+.heading-custom {
   /* custom positioning for main heading*/
   margin-top: 2%;
   font-family: 'Playfair Display', serif;
-
 }
-h3{
+
+h3 {
   font-family: 'Playfair Display', serif;
 }
-h5{
+
+h5 {
   font-family: 'Dancing Script', cursive;
 }
-p{
+
+p {
   font-family: 'Source Sans Pro', sans-serif;
 }
+
 .img-pad {
   /* added padding around images */
-  margin-top:25%;
+  margin-top: 25%;
   /* margin-left: 2.5%!important; */
 }
-
 
 .padding-skills {
   padding-top: 2rem;
@@ -110,28 +114,21 @@ p{
 .footer-copyright {
   padding-top: 0.5em;
 }
-.logo{
-  margin-top:0;
-  margin-bottom: 0;
-  margin-left: 1em !important;
-}
-
 
 @media only screen and (max-width: 768px) {
-.image-div,h5,.logo-div,nav{
-  text-align: center;
-}
+  .image-div,h1, h5, nav {
+    text-align: center;
+  }
+
   /* For mobile phones: */
   .navbar-custom {
     opacity: 1;
     z-index: 99;
   }
-  h1{
-    text-align: center;
-  }
+
 
   .custom-main {
-    top:5vh;
+    top: 5vh;
   }
 
   .container {
@@ -147,21 +144,25 @@ p{
     /* margin-left: 22vw!important; */
     margin-top: 7vh;
   }
-  .image-div{
+
+  .image-div {
     height: 40vh;
     margin-bottom: 2vh;
   }
-  .logo{
-    height:10vh;
+
+  .logo {
+    height: 10vh;
   }
 }
-@media only screen and (max-width: 375px){
-.img-pad{
-  /* margin-left: 17vw!important; */
+
+@media only screen and (max-width: 375px) {
+  .img-pad {
+    /* margin-left: 17vw!important; */
+  }
 }
-}
+
 @media (min-width: 1200px) {
-    .container{
-        max-width: 950px;
-    }
+  .container {
+    max-width: 950px;
+  }
 }
