@@ -1,3 +1,6 @@
+/* .container,h1,h2,h3,h4,h5{
+  font-weight: bold;
+} */
 .navbar-custom {
   /*opacity of navbar */
   opacity: 0.8;
@@ -107,11 +110,17 @@ p{
 .footer-copyright {
   padding-top: 0.5em;
 }
-
+.logo{
+  margin-top:0;
+  margin-bottom: 0;
+  margin-left: 1em !important;
+}
 
 
 @media only screen and (max-width: 768px) {
-
+.image-div,h5,.logo-div{
+  text-align: center;
+}
   /* For mobile phones: */
   .navbar-custom {
     opacity: 1;
@@ -135,17 +144,20 @@ p{
 
   .img-pad {
     height: 35vh;
-    margin-left: 22vw!important;
+    /* margin-left: 22vw!important; */
     margin-top: 7vh;
   }
   .image-div{
     height: 40vh;
     margin-bottom: 2vh;
   }
+  .logo{
+    height:10vh;
+  }
 }
 @media only screen and (max-width: 375px){
 .img-pad{
-  margin-left: 17vw!important;
+  /* margin-left: 17vw!important; */
 }
 }
 @media (min-width: 1200px) {
