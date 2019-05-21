@@ -118,7 +118,7 @@ p{
 
 
 @media only screen and (max-width: 768px) {
-.image-div,h5,.logo-div{
+.image-div,h5,.logo-div,nav{
   text-align: center;
 }
   /* For mobile phones: */
