@@ -41,7 +41,7 @@
   /* font-family: 'Playfair Display', serif; */
 }
 
-p {
+p,ol {
   text-align: justify;
 }
 
@@ -115,6 +115,15 @@ p {
   padding-top: 0.5em;
 }
 
+#research{
+  padding-bottom: 4em;
+}
+ol{
+  padding-right: 1.25em;
+}
+.pubs{
+  color: #ffffff;
+}
 @media only screen and (max-width: 768px) {
   .image-div,h1, h5, nav {
     text-align: center;
@@ -153,11 +162,18 @@ p {
   .logo {
     height: 10vh;
   }
+  #research{
+    padding-bottom: 0em;
+  }
 }
 
 @media only screen and (max-width: 375px) {
-  .img-pad {
-    /* margin-left: 17vw!important; */
+  html,body{
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .heading-custom{
+    margin-top: 25px;
   }
 }
 
