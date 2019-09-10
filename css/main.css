@@ -164,16 +164,9 @@ ol{
   .heading-padding {
     margin-top: 0.9em;
   }
-<<<<<<< HEAD
-
-  /* .logo {
-    height: 10vh;
-  } */
-=======
   #research{
     padding-bottom: 0em;
   }
->>>>>>> 49ffa918ad1b7905ddd9b3c60fb4b7789e20e85d
 }
 
 @media only screen and (max-width: 375px) {
