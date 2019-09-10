@@ -41,7 +41,7 @@
   /* font-family: 'Playfair Display', serif; */
 }
 
-p {
+p,ol {
   text-align: justify;
 }
 
@@ -118,6 +118,15 @@ p {
   margin-bottom: 0.4em;
 }
 
+#research{
+  padding-bottom: 4em;
+}
+ol{
+  padding-right: 1.25em;
+}
+.pubs{
+  color: #ffffff;
+}
 @media only screen and (max-width: 768px) {
   .image-div, h1, h5, nav {
     text-align: center;
@@ -155,15 +164,25 @@ p {
   .heading-padding {
     margin-top: 0.9em;
   }
+<<<<<<< HEAD
 
   /* .logo {
     height: 10vh;
   } */
+=======
+  #research{
+    padding-bottom: 0em;
+  }
+>>>>>>> 49ffa918ad1b7905ddd9b3c60fb4b7789e20e85d
 }
 
 @media only screen and (max-width: 375px) {
-  .img-pad {
-    /* margin-left: 17vw!important; */
+  html,body{
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .heading-custom{
+    margin-top: 25px;
   }
 }
 
