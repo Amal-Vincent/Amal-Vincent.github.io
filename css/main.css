@@ -3,7 +3,7 @@
 } */
 .navbar-custom {
   /*opacity of navbar */
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .navbar-brand, .nav-link:focus {
@@ -41,7 +41,12 @@
   /* font-family: 'Playfair Display', serif; */
 }
 
-p,ol {
+.experience-sub {
+  margin-left: 5%;
+  padding-bottom: 5%;
+}
+
+p, ol {
   text-align: justify;
 }
 
@@ -114,19 +119,27 @@ p {
 .footer-copyright {
   padding-top: 0.5em;
 }
-.heading-padding{
+
+.heading-padding {
   margin-bottom: 0.4em;
 }
 
-#research{
+#research, #experience {
   padding-bottom: 4em;
 }
-ol{
+
+.bottom-padding {
+  padding-bottom: 1em;
+}
+
+ol {
   padding-right: 1.25em;
 }
-.pubs{
+
+.pubs {
   color: #ffffff;
 }
+
 @media only screen and (max-width: 768px) {
   .image-div, h1, h5, nav {
     text-align: center;
@@ -164,17 +177,19 @@ ol{
   .heading-padding {
     margin-top: 0.9em;
   }
-  #research{
+
+  #research, #experience {
     padding-bottom: 0em;
   }
 }
 
 @media only screen and (max-width: 375px) {
-  html,body{
+  html, body {
     width: 100%;
     overflow-x: hidden;
   }
-  .heading-custom{
+
+  .heading-custom {
     margin-top: 25px;
   }
 }
