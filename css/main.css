@@ -1,6 +1,52 @@
 /* .container,h1,h2,h3,h4,h5{
   font-weight: bold;
 } */
+.lightbox {
+  margin-left: 1.5em;
+}
+
+.thumbnail {
+  width: 240px;
+  height: 140px;
+  margin-bottom: 3em;
+}
+
+.modal-backdrop {
+  position: absolute;
+  z-index: 1031 !important;
+}
+
+.modal {
+  position: absolute;
+  z-index: 1032;
+}
+
+.btn {
+  border: 1px solid;
+}
+
+.modal-dialog {
+  min-height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: auto;
+}
+
+.close {
+  display: none
+}
+
+@media(max-width: 768px) {
+  .modal-dialog {
+    min-height: calc(100vh - 20px);
+  }
+
+  .thumbnail {
+    margin-left: 2em;
+  }
+}
+
 .navbar-custom {
   /*opacity of navbar */
   opacity: 1;
