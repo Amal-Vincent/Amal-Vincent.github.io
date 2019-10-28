@@ -17,12 +17,12 @@ $('.lightbox').click(function() {
   } else if (title == 'FitViz: Fitbit based web application for monitoring physical activity of arthritis patients') {
     $('.modal-body').html('<img class="thumbnail" src="images/Fit.gif"><p>Rheumatoid arthritis (RA) affects 1 in 100 adults in Canada. Self-management of this disease requires the patients to maintain an adequate level of daily physical activity, while not overdoing it; excessive physical activity can be harmful to RA patients. The patients receive regular physical activity recommendations from their clinicians, based on their individual diagnosis. Current solutions for physical activity monitor does not satisfy the needs of the arthritis patients and their clinicians, as they do not allow the patients and the clinicians to know if the patients did the physical activity as recommended by the clinicians. Therefore, our team at the BioViz Lab developed a web application that monitors the patient’s daily physical activity and generates visualisations to help the patients in the self-management of the condition.</p><p><a href="https://fitviz.iat.sfu.ca/fitvizapp-dev/users/sign_in">Go to the Project Website</a></p>');
   } else if (title == 'Gaze Estimation using regular Webcam') {
-    $('.modal-body').html('<img class="thumbnail" src="images/gaze.png"><p>Gaze Estimation is the process of determining the point of gaze in the space, or the visual axis of an eye. This project was focused on devel-oping a gaze estimation method for Human-Computer Interaction using an ordinary webcam mounted on the top of the computer screenwithout any additional or specialised hardware.</p><p><a href="https://doi.org/10.1109/DIPDMWC.2016.7529379">Read the research paper</a></p>');
-  }
-  else if (title== 'Online voting system powered by biometric security using steganography') {
+    $('.modal-body').html('<img class="thumbnail" src="images/gaze.png"><p>Gaze Estimation is the process of determining the point of gaze in the space, or the visual axis of an eye. This project was focused on developing a gaze estimation method for Human-Computer Interaction using an ordinary webcam mounted on the top of the computer screen without any additional or specialised hardware.</p><p><a href="https://doi.org/10.1109/DIPDMWC.2016.7529379">Read the research paper</a></p>');
+  } else if (title == 'Online voting system powered by biometric security using steganography') {
     $('.modal-body').html('<img class="thumbnail" src="images/vote.jpg"><p>The project involved the development of a secure and time-saving interactive platform, wherein the voters in a digital democracy could easily cast their vote. The security for the system for the data transmission was provided using concepts of cryptography and steganography.</p><p><a href="">Read the Project Report</a></p>');
-  }
-  else {
+  } else if (title == 'Home automation using a cellphone' ) {
+  $('.modal-body').html('<img class="thumbnail" src="images/phone.jpg"><p>The objective of this project was to enable users to remotely control their home appliances and systems using a cell phone-based interface. The product uses the advantages of DTMF for the functioning and the DTMF codes are decoded and used for understanding the requirement or the order from the user. This helps to control your home appliances from a distant place using a mobile phone by just calling.</p><p><a href="">Read the Project Report</a></p>');
+  } else {
     $('.modal-body').html('<p>Loading...</p>');
   }
   $('#lightbox').modal({
