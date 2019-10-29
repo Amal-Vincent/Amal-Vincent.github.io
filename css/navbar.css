@@ -1,0 +1,18 @@
+.navbar-custom {
+  /*opacity of navbar */
+  opacity: 1;
+}
+
+.navbar-brand, .nav-link:focus {
+  /* removed border around clicks */
+  outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* For mobile phones: */
+  .navbar-custom {
+    opacity: 1;
+    z-index: 99;
+  }
+}

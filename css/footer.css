@@ -1,0 +1,14 @@
+.footer {
+  z-index: 99;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 2.5em;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgb(33, 37, 41);
+}
+
+.footer-copyright {
+  padding-top: 0.5em;
+}
