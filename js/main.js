@@ -22,7 +22,11 @@ $('.lightbox').click(function() {
     $('.modal-body').html('<img class="thumbnail" src="images/vote.jpg"><p>The project involved the development of a secure and time-saving interactive platform, wherein the voters in a digital democracy could easily cast their vote. The security for the system for the data transmission was provided using concepts of cryptography and steganography.</p><p><a href="">Read the Project Report</a></p>');
   } else if (title == 'Home automation using a cellphone') {
     $('.modal-body').html('<img class="thumbnail" src="images/phone.jpg"><p>The objective of this project was to enable users to remotely control their home appliances and systems using a cell phone-based interface. The product uses the advantages of DTMF for the functioning and the DTMF codes are decoded and used for understanding the requirement or the order from the user. This helps to control your home appliances from a distant place using a mobile phone by just calling.</p><p><a href="">Read the Project Report</a></p>');
-  } else {
+  }
+  else if (title == 'Correlation Visualisation for Sleep Data Analytics') {
+   $('.modal-body').html('<img class="thumbnail" src="images/corrViz.png"><p>We built a visual analytic tool for studying the interaction of different variables collected for a child with neurodevelopmental disorders. The tool allows clinicians to explore how the different aspects of a child\'s behaviour and activities affect their sleep; this tool is developed as an extension of an existing tool SWAPP, which allows caregivers and clinicians to log and monitor the child\'s everyday data.</p><p><a href="https://doi.org/10.2352/ISSN.2470-1173.2019.1.VDA-682">Read the Research Paper</a></p>');
+ }
+  else {
     $('.modal-body').html('<p>Loading...</p>');
   }
   $('#lightbox').modal({
