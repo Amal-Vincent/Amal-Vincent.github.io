@@ -107,7 +107,6 @@ p {
 /* #research, #experience {
   padding-bottom: 4em;
 } */
-
 .bottom-padding {
   padding-bottom: 1em;
 }
@@ -129,7 +128,7 @@ ol {
     padding-top: 3em;
     max-height: 100vh;
     height: 100vh;
-    width:100%;
+    width: 100%;
   }
 
   .container {
@@ -171,12 +170,13 @@ ol {
     margin-top: 25px;
   }
 }
-@media only screen and (max-height: 375px){
+
+@media only screen and (max-height: 375px) {
   .custom-main {
     padding-top: 3em;
     max-height: 100vh;
     height: 100vh;
-    width:100%;
+    width: 100%;
   }
 
   .container {
@@ -186,7 +186,16 @@ ol {
 }
 
 @media (min-width: 1200px) {
-  .container {
+
+  /* .container {
     max-width: 950px;
+  } */
+  header.mb-auto {
+    margin-bottom: 0 !important;
+  }
+
+  .custom-main {
+    width: 50%;
+    max-height:60%; 
   }
 }
