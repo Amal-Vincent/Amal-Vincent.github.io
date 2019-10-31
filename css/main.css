@@ -200,7 +200,7 @@ ol {
     max-height:60%;
   }
 }
-@media (min-width:1200px) {
+@media (min-width:1200px) and (min-height:768px) {
   header.mb-auto {
     margin-bottom: 0 !important;
   }
