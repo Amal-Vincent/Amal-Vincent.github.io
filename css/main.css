@@ -22,7 +22,7 @@ html, body {
 }
 
 .container {
-  background-color: rgba(33, 37, 41, 0.5);
+  background-color: rgba(33, 37, 41, 0.8);
   border-radius: 15px;
   overflow-x: hidden;
 }
