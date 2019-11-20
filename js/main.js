@@ -50,6 +50,9 @@ $('.lightbox').click(function() {
   else if (title == 'Correlation Visualisation for Sleep Data Analytics') {
    $('.modal-body').html('<img class="thumbnail" src="images/corrViz.png"><p>We built a visual analytic tool for studying the interaction of different variables collected for a child with neurodevelopmental disorders. The tool allows clinicians to explore how the different aspects of a child\'s behaviour and activities affect their sleep; this tool is developed as an extension of an existing tool SWAPP, which allows caregivers and clinicians to log and monitor the child\'s everyday data.</p><p><a href="https://doi.org/10.2352/ISSN.2470-1173.2019.1.VDA-682">Read the Research Paper</a></p>');
  }
+ else if (title == 'Block Talks') {
+  $('.modal-body').html('<img class="thumbnail" src="images/block.jpg"><p>Block talks is a Tangible Augmented Reality toolkit to help kids ages 7-9 learn how to read. It is intended for a semi-supervised environment.</p><p><a href="https://doi.org/10.1145/3170427.3188576">Read the Research Paper</a></p><p><a href="https://emclaren.github.io/block-talks-landing-page/">Go to the Project Website</a></p>');
+}
   else {
     $('.modal-body').html('<p>Loading...</p>');
   }
