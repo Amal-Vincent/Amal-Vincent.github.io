@@ -53,6 +53,9 @@ $('.lightbox').click(function() {
  else if (title == 'Block Talks') {
   $('.modal-body').html('<img class="thumbnail" src="images/block.jpg"><p>Block talks is a Tangible Augmented Reality toolkit to help kids ages 7-9 learn how to read. It is intended for a semi-supervised environment.</p><p><a href="https://doi.org/10.1145/3170427.3188576">Read the Research Paper</a></p><p><a href="https://emclaren.github.io/block-talks-landing-page/">Go to the Project Website</a></p>');
 }
+else if (title == 'Project ABC: Authorization, Booking and Coordination of widespread testing and immunizations') {
+  $('.modal-body').html('<img class="thumbnail" src="images/vaccine.png"><p>Ensuring efficient and effective disease testing during a pandemic requires the integration and automation of complex, versatile assessment, scheduling, and planning tools. A citizen\’s access to the health care system at multiple points, and current tools enabling tracking that data, are labour intensive and are insufficient to cope with addressing the volume of tests required during a pandemic. Project ABC is aiming to remove bottlenecks with a solution that will enable automated assessment, authorisation, booking, and coordination of widespread testing and, when available, immunisation in the context of COVID-19. </p><p><a href="https://www.digitalsupercluster.ca/covid-19-program-page/project-abc/">More information</a></p>');
+}
   else {
     $('.modal-body').html('<p>Loading...</p>');
   }
