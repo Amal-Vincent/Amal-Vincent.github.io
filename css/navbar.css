@@ -3,6 +3,11 @@
   opacity: 1;
 }
 
+#myTab {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
 .navbar-brand, .nav-link:focus {
   /* removed border around clicks */
   outline: none;
