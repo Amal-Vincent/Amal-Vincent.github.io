@@ -2,17 +2,22 @@
   /*opacity of navbar */
   opacity: 1;
 }
-
-#myTab {
-  margin-left: 25%;
-  margin-right: 25%;
-}
-
 .navbar-brand, .nav-link:focus {
   /* removed border around clicks */
   outline: none;
 }
+@media only screen and (min-width: 1000px) {
+  #myTab {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+  .cv{
+    position: absolute;
+    right: 1em;
+  }
 
+}
 @media only screen and (max-width: 768px) {
 
   /* For mobile phones: */
